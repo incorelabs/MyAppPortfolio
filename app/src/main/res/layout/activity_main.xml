@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfeaf1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/my_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/my_title"
+        android:textColor="@color/myTitle"
+        android:textSize="@dimen/my_title"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/media_streamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/btn_margin"
+            android:background="@color/btnColor"
+            android:onClick="mediaStreamerOnClick"
+            android:text="@string/media_streamer"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/super_duo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/btn_margin"
+            android:background="@color/btnColor"
+            android:onClick="superDuo1OnClick"
+            android:text="@string/super_duo1"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/super_duo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/btn_margin"
+            android:background="@color/btnColor"
+            android:onClick="superDuo2OnClick"
+            android:text="@string/super_duo2"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ant_terminator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/btn_margin"
+            android:background="@color/btnColor"
+            android:onClick="antTerminatorOnClick"
+            android:text="@string/ant_terminator"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/materialize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/btn_margin"
+            android:background="@color/btnColor"
+            android:onClick="materializeOnClick"
+            android:text="@string/materialize"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/btn_margin"
+            android:background="@color/capstoneBtnColor"
+            android:onClick="capstoneOnClick"
+            android:text="@string/capstone"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
